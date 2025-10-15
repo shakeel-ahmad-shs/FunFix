@@ -46,8 +46,10 @@ app.*.map.json
 # Firebase & Sensitive files
 google-services.json
 GoogleService-Info.plist
-
-
+lib/firebase_options.dart
+# Environment
+.env
+*.keystore
 # Environment
 .env
 *.keystore
