@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "100243021797",
+    "project_id": "alfalah-51d64",
+    "storage_bucket": "alfalah-51d64.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100243021797:android:35f6106267001852e2190c",
+        "android_client_info": {
+          "package_name": "com.example.ashr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW4X2GQ913hm94BtSjy8vfqkoHrwvE6_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100243021797:android:c7a93b6a3a718465e2190c",
+        "android_client_info": {
+          "package_name": "com.example.funfix"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW4X2GQ913hm94BtSjy8vfqkoHrwvE6_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
