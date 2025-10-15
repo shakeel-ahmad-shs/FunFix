@@ -47,10 +47,12 @@ app.*.map.json
 google-services.json
 GoogleService-Info.plist
 lib/firebase_options.dart
+# Environment
+.env
+*.keystore
+# Environment
+.env
+*.keystore
+# Hide Flutter dependency files
 pubspec.yaml
-# Environment
-.env
-*.keystore
-# Environment
-.env
-*.keystore
+pubspec.lock
