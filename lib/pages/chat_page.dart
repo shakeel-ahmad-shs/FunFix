@@ -1,5 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+import 'package:funfix/call%20feature/methods/appbar_call_button.dart';
 import 'package:funfix/components/chat_bubble.dart';
 import 'package:funfix/components/my_textfield.dart';
 import 'package:funfix/services/auth/auth_service.dart';
@@ -85,7 +86,11 @@ class _ChatPageState extends State<ChatPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text(widget.reciveremail)),
+      appBar: AppBarWithCall(
+        receiverEmail: widget.reciveremail,
+        receiverID: widget.receiverID,
+      ),
+      // AppBar(title: Text(widget.reciveremail)),
       body: Column(
         children: [
           // display all messages
